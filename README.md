@@ -9,7 +9,7 @@ The solution ingests Brazilian E-Commerce data from AWS S3, processes and transf
 ---
 
 ## Architecture Diagram
-![Architecture](Workflow archietecture.png)
+![Architecture](archietecture.png)
 
 
 ### Architecture Flow
