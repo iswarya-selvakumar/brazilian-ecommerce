@@ -124,7 +124,7 @@ Output:
 The Gold layer follows a Star Schema design optimized for analytical workloads and reporting.
 
 ### Star Schema
-![Data Model](<img width="581" height="536" alt="Screenshot 2026-06-04 223728" src="https://github.com/user-attachments/assets/22ac17c3-423b-415d-b9da-9ad264fa296d" />)
+![Data Model] (<img width="581" height="536" alt="Screenshot 2026-06-04 223728" src="https://github.com/user-attachments/assets/22ac17c3-423b-415d-b9da-9ad264fa296d" />)
 
 
 ### Fact Table
@@ -154,7 +154,7 @@ Silver Transformation
       ↓
 Gold Modeling
 ```
-![Workflow](<img width="1364" height="600" alt="Screenshot 2026-06-06 193859" src="https://github.com/user-attachments/assets/73687e8a-9326-46e0-a420-3d985fd95576" />)
+![Workflow](<img width="1200" height="600" alt="Screenshot 2026-06-06 193859" src="https://github.com/user-attachments/assets/73687e8a-9326-46e0-a420-3d985fd95576" />)
 
 ---
 
