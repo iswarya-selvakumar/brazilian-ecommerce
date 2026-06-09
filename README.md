@@ -1,5 +1,7 @@
 # Brazilian E-Commerce Lakehouse
 
+End-to-end Azure Databricks Lakehouse project implementing Medallion Architecture, Delta Lake, Unity Catalog, Databricks Workflows, SQL Warehouse, and Power BI.
+
 ## Project Overview
 
 This project demonstrates the implementation of an end-to-end Azure Databricks Lakehouse solution using the Medallion Architecture (Bronze, Silver, Gold).
@@ -234,24 +236,18 @@ Features:
 ```text
 Brazilian-Ecommerce-Lakehouse/
 │
-├── Architecture/
-│   └── architecture.png
+├── README.md
 │
-├── Bronze/
-├── Silver/
-├── Gold/
+├── Bronze_ingestion.ipynb
+├── Silver_transformation.ipynb
+├── Gold_modeling.ipynb
 │
-├── Workflow/
-│   └── workflow.png
-│
-├── Screenshots/
-│   └── sql_warehouse.png
-|
-├── Dashboard/
-│   ├── page1.png
-│   └── page2.png
-│
-└── README.md
+├── architecture.png
+├── Data_model.png
+├── workflow.png
+├── SQL_Warehouse.png
+├── Dashboard_page_1.png
+└── Dashboard_page_2.png
 ```
 ## Conclusion
 
