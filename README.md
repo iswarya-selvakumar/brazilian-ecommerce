@@ -137,6 +137,7 @@ The Gold layer follows a Star Schema design optimized for analytical workloads a
 ![Data Model](Data_model.png)
 
 
+
 ### Fact Table
 
 - fact_sales
@@ -150,6 +151,15 @@ The Gold layer follows a Star Schema design optimized for analytical workloads a
 - dim_date
 
 ---
+## ETL Notebooks
+
+| Layer | Notebook |
+|---------|----------|
+| Bronze | bronze_ingestion.ipynb |
+| Silver | silver_transformation.ipynb |
+| Gold | gold_aggregations.ipynb |
+
+The ETL pipeline was developed in Azure Databricks using PySpark notebooks and orchestrated through Databricks Workflows.
 
 ## Databricks Workflow
 
