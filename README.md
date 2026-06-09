@@ -248,9 +248,9 @@ Brazilian-Ecommerce-Lakehouse/
 │
 ├── README.md
 │
-├── Bronze_ingestion.ipynb
-├── Silver_transformation.ipynb
-├── Gold_modeling.ipynb
+├── bronze_ingestion.ipynb
+├── silver_transformation.ipynb
+├── gold_aggregations.ipynb
 │
 ├── architecture.png
 ├── Data_model.png
