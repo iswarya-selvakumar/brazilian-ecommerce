@@ -7,6 +7,17 @@ This project demonstrates the implementation of an end-to-end Azure Databricks L
 The solution ingests Brazilian E-Commerce data from AWS S3, processes and transforms data using PySpark in Azure Databricks, stores Delta tables in Azure Data Lake Storage Gen2, manages governance through Unity Catalog, orchestrates pipelines using Databricks Workflows, serves data through Databricks SQL Warehouse, and visualizes insights using Power BI.
 
 ---
+## Project Highlights
+
+- Implemented Medallion Architecture
+- Built Delta Lake tables using PySpark
+- Managed governance with Unity Catalog
+- Developed ETL pipelines in Azure Databricks
+- Automated workflows using Databricks Workflows
+- Created Star Schema dimensional models
+- Connected Databricks SQL Warehouse to Power BI
+- Built business intelligence dashboards
+---
 
 ## Architecture Diagram
 ![Architecture](archietecture.png)
@@ -27,7 +38,6 @@ Databricks SQL Warehouse
    ↓
 Power BI Dashboard
 ```
-
 ---
 
 ## Technology Stack
@@ -54,10 +64,10 @@ Brazilian E-Commerce Public Dataset containing:
 - Customers
 - Orders
 - Products
-- Order_items
+- Order Items
 - Payments
 - Reviews
-- Product_Category_translation
+- Product Category Translation
 
 ---
 
@@ -122,7 +132,7 @@ Output:
 The Gold layer follows a Star Schema design optimized for analytical workloads and reporting.
 
 ### Star Schema
-![Data Model] (<img width="581" height="536" alt="Screenshot 2026-06-04 223728" src="https://github.com/user-attachments/assets/22ac17c3-423b-415d-b9da-9ad264fa296d" />)
+![Data Model](Data_model.png)
 
 
 ### Fact Table
@@ -152,7 +162,7 @@ Silver Transformation
       ↓
 Gold Modeling
 ```
-![Workflow](<img width="1200" height="600" alt="Screenshot 2026-06-06 193859" src="https://github.com/user-attachments/assets/73687e8a-9326-46e0-a420-3d985fd95576" />)
+![Workflow](workflow.png)
 
 ---
 
@@ -166,7 +176,7 @@ Features:
 - Unity Catalog integration
 - Power BI connectivity
 
-<![SQL Warehouse](img width="1365" height="600" alt="Screenshot 2026-06-06 221149" src="https://github.com/user-attachments/assets/f1a7d38a-854c-4a0f-9c3c-2959c5a0ac33" />)
+![SQL Warehouse](SQL_Warehouse.png)
 
 
 ---
@@ -187,8 +197,7 @@ Features:
 - Revenue by State
 - Revenue by Payment Type
 
-![Dashboard Page 1](<img width="1365" height="647" alt="Screenshot 2026-06-09 135614" src="https://github.com/user-attachments/assets/3562f90b-9bbd-4e1a-883c-9b520ebc5165" />
-)
+![Dashboard Page 1](Dashboard_page_1.png)
 
 ---
 
@@ -203,8 +212,7 @@ Features:
 - Product Category Analysis
 - Review Score Distribution
 
-![Dashboard Page 2](<img width="1364" height="657" alt="Screenshot 2026-06-09 135639" src="https://github.com/user-attachments/assets/9681bfcf-44f9-4de7-a056-1f781a32398f" />
-)
+![Dashboard Page 2](Dashboard_page_2.png)
 
 ---
 
@@ -218,19 +226,6 @@ Features:
 - Average Order Value
 - Average Delivery Days
 - Average Review Score
-
----
-
-## Key Learnings
-
-- Implemented Medallion Architecture
-- Built Delta Lake tables using PySpark
-- Managed governance with Unity Catalog
-- Developed ETL pipelines in Azure Databricks
-- Automated workflows using Databricks Workflows
-- Created Star Schema dimensional models
-- Connected Databricks SQL Warehouse to Power BI
-- Built business intelligence dashboards
 
 ---
 
@@ -249,15 +244,18 @@ Brazilian-Ecommerce-Lakehouse/
 ├── Workflow/
 │   └── workflow.png
 │
+├── Screenshots/
+│   └── sql_warehouse.png
+|
 ├── Dashboard/
 │   ├── page1.png
 │   └── page2.png
 │
-├── Screenshots/
-│   └── sql_warehouse.png
-│
 └── README.md
 ```
+## Conclusion
+
+This project demonstrates the design and implementation of a modern Lakehouse architecture using Azure Databricks. It covers the complete data lifecycle from ingestion and transformation to analytics and visualization, following industry-standard data engineering practices.
 
 ---
 
